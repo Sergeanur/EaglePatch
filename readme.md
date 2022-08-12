@@ -54,6 +54,9 @@ EaglePatchAC2 is an ASI plugin that fixes a number of issues in Assassin's Creed
 <img src="/assets/EaglePatchAC2.png" alt="EaglePatchAC2">
 
 ## Features
+- Improved shadow map size from 1024 to 4096 (only when shadow quality is maxed out in game's settings; can be disabled in ini)
+- Draw distance maxed out for buildings, peds and flags (can be disabled in ini)
+- Enables UPlay bonuses - Auditore Crypt, Altair robes, extra knifes, bonus dye (can be disabled in ini)
 - Added support of all XInput controllers
 - Added detection of hotplugged controllers
 - Removed support of DInput controllers
