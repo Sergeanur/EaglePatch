@@ -22,11 +22,12 @@ EaglePatchAC1 is an ASI plugin that fixes a number of issues in Assassin's Creed
 Note: switching controls layout in game settings has no effect anymore, if you didn't use KeyboardMouse2 layout for keyboard, you need to change KeyboardLayout setting in EaglePatchAC1.ini
 
 ## Installation
-1. Download Ultimate ASI Loader: https://github.com/ThirteenAG/Ultimate-ASI-Loader/releases/download/v4.68/Ultimate-ASI-Loader.zip
-2. Put dinput8.dll from Ultimate ASI Loader into your Assassin's Creed: Director's Cut Edition directory
-3. In your Assassin's Creed: Director's Cut Edition directory create a folder named scripts
-4. Put EaglePatchAC1.asi and EaglePatchAC1.ini into a newly created scripts folder
-5. Done! You may want to check EaglePatchAC1.ini for any settings you want to enable or disable
+1. Download latest release of EaglePatchAC1.rar : https://github.com/Sergeanur/EaglePatch/releases
+2. Download Ultimate ASI Loader: https://github.com/ThirteenAG/Ultimate-ASI-Loader/releases/download/v4.68/Ultimate-ASI-Loader.zip
+3. Put dinput8.dll from Ultimate ASI Loader into your Assassin's Creed: Director's Cut Edition directory
+4. In your Assassin's Creed: Director's Cut Edition directory create a folder named scripts
+5. Put EaglePatchAC1.asi and EaglePatchAC1.ini into a newly created scripts folder
+6. Done! You may want to check EaglePatchAC1.ini for any settings you want to enable or disable
 
 ## Confirmed supported exes
 #### AssassinsCreed_Dx9.exe (GOG/Steam)
@@ -67,11 +68,12 @@ EaglePatchAC2 is an ASI plugin that fixes a number of issues in Assassin's Creed
 Note: switching controls layout in game settings has no effect anymore, if you didn't use KeyboardMouse2 layout for keyboard, you need to change KeyboardLayout setting in EaglePatchAC2.ini
 
 ## Installation
-1. Download Ultimate ASI Loader: https://github.com/ThirteenAG/Ultimate-ASI-Loader/releases/download/v4.68/Ultimate-ASI-Loader.zip
-2. Put dinput8.dll from Ultimate ASI Loader into your Assassin's Creed II directory
-3. In your Assassin's Creed II directory create a folder named scripts
-4. Put EaglePatchAC2.asi and EaglePatchAC2.ini into a newly created scripts folder
-5. Done! You may want to check EaglePatchAC2.ini for any settings you want to enable or disable
+1. Download latest release of EaglePatchAC2.rar : https://github.com/Sergeanur/EaglePatch/releases
+2. Download Ultimate ASI Loader: https://github.com/ThirteenAG/Ultimate-ASI-Loader/releases/download/v4.68/Ultimate-ASI-Loader.zip
+3. Put dinput8.dll from Ultimate ASI Loader into your Assassin's Creed II directory
+4. In your Assassin's Creed II directory create a folder named scripts
+5. Put EaglePatchAC2.asi and EaglePatchAC2.ini into a newly created scripts folder
+6. Done! You may want to check EaglePatchAC2.ini for any settings you want to enable or disable
 
 ## Supported versions
 - Digital UPlay
