@@ -20,6 +20,7 @@ EaglePatchAC1 is an ASI plugin that fixes a number of issues in Assassin's Creed
 - Gamepad and kb/mouse controls work at the same time (read note below)
 - Added ini setting for enabling PS3-like controls
 - Added ini setting to skip intro videos (without having to rename files)
+- Added ini setting to limit CPU cores the game can use (fixes game crashing at startup when using a CPU with a high core count)
 - [DX10 only] Fixed doubling of resolution modes in settings
 
 Note: switching controls layout in game settings has no effect anymore, if you didn't use KeyboardMouse2 layout for keyboard, you need to change KeyboardLayout setting in EaglePatchAC1.ini

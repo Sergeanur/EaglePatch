@@ -355,6 +355,12 @@ void patch()
 	if (NEEDED_KEYBOARD_SET < scimitar::PadSets::Keyboard1) NEEDED_KEYBOARD_SET = scimitar::PadSets::Keyboard1;
 	else if (NEEDED_KEYBOARD_SET > scimitar::PadSets::Keyboard4) NEEDED_KEYBOARD_SET = scimitar::PadSets::Keyboard4;
 
+	if (get_private_profile_bool("LimitCpuCores", FALSE))
+	{
+		// set process affinity to use first 4 cores
+		SetProcessAffinityMask(GetCurrentProcess(), 0xF);
+	}
+
 	if (!get_private_profile_bool("DisableXInputPatch", FALSE))
 	{
 		InjectHook(sAddresses::_addXenonJoy_Patch, &_addXenonJoy_Patch, PATCH_JUMP);
